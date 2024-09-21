@@ -102,3 +102,15 @@ Finding Social Media Pages: The core functionality of the tool is to check if a 
 URL Validation: By making HTTP HEAD requests, the tool efficiently checks if a social media profile exists without downloading the entire page.
 Activity Check Placeholder: The tool currently assumes that every found page is active. However, you can replace the placeholder logic with real API calls to check for recent posts.
 Error Handling: The code includes basic error handling, such as catching IOException and URISyntaxException, ensuring that invalid URLs or connection failures don't crash the program.
+How to run the code:
+
+javac SocialMediaChecker.java
+
+next:
+
+java SocialMediaChecker exampleCompany
+
+or
+
+java SocialMediaChecker companyDomain
+
